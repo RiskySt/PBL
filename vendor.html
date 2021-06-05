@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTFF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/images/icon.jpg" type="image/x-icon" />
+    <title>Vendor APBPA</title>
+    <!--Stylesheet css fontawesome-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--NAVBARR-->
+      <div class="navbar">
+        <div class="logo">
+          <img src="./assets/Images/icon.jpg" height="50px" width="50px" />
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="profile.html">Profile</a></li>
+          </ul>
+        </nav>
+        <div class="cart-icon">
+          <i class="fas fa-heart"></i>
+        </div>
+        <div class="menu-icon">
+          <i class="fas fa-bars" onclick="menutoggle()"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-------Vendor Product---->
+    <div class="row-vendor">
+      <div class="col-2">
+        <div class="small-container vendor-page">
+          <table>
+            <tr>
+              <th>Product</th>
+              <th>Action</th>
+            </tr>
+            <tr>
+              <td>
+                <div class="vendor-info">
+                  <img src="./assets/Images/a5.jpg" />
+                  <div>
+                    <p>Camera Canon Rent</p>
+                    <small>Price: RP. 500.000</small>
+                    <br />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="vendor-action">
+                  <a href="">Editt</a><br />
+                  <a href="">Rented</a><br />
+                  <a href="">Remove</a><br />
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="vendor-info">
+                  <img src="./assets/images/3.jpg" />
+                  <div>
+                    <p>Camera Canon Rent</p>
+                    <small>Price: RP. 500.000</small>
+                    <br />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="vendor-action">
+                  <a href="">Editt</a><br />
+                  <a href="">Rented</a><br />
+                  <a href="">Remove</a><br />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="vendor-info">
+                  <img src="./assets/images/3.jpg" />
+                  <div>
+                    <p>Camera Canon Rent</p>
+                    <small>Price: RP. 500.000</small>
+                    <br />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="vendor-action">
+                  <a href="">Editt</a><br />
+                  <a href="">Rented</a><br />
+                  <a href="">Remove</a><br />
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="vendor-info">
+                  <img src="./assets/images/3.jpg" />
+                  <div>
+                    <p>Camera Canon Rent</p>
+                    <small>Price: RP. 500.000</small>
+                    <br />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="vendor-action">
+                  <a href="">Editt</a><br />
+                  <a href="">Rented</a><br />
+                  <a href="">Remove</a><br />
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="vendor-info">
+                  <img src="./assets/images/3.jpg" />
+                  <div>
+                    <p>Camera Canon Rent</p>
+                    <small>Price: RP. 500.000</small>
+                    <br />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="vendor-action">
+                  <a href="">Editt</a><br />
+                  <a href="">Rented</a><br />
+                  <a href="">Remove</a><br />
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="vendor-info">
+                  <img src="./assets/images/3.jpg" />
+                  <div>
+                    <p>Camera Canon Rent</p>
+                    <small>Price: RP. 500.000</small>
+                    <br />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="vendor-action">
+                  <a href="">Editt</a><br />
+                  <a href="">Rented</a><br />
+                  <a href="">Remove</a><br />
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="small-container vendor-page">
+          <form>
+            <fieldset class="upload">
+              <legend>Upload Product</legend>
+              <p>
+                <label for="nama-barang">Nama Barang</label>
+                <input required placeholder="Nama Barang" id="nama-barang" type="text" />
+              </p>
+              <p>
+                <label for="harga-barang">Harga Barang</label>
+                <input required placeholder="Rp .xxxx" id="harga-barang" type="number" />
+              </p>
+              <p>
+                <label for="berat-barang">Berat Barang</label>
+                <input required placeholder="Kilogram" id="berat-barang" type="text" />
+              </p>
+              <p>
+                <label for="alamat-barang">Alamat Barang</label>
+                <textarea name="alamat-barang" placeholder="Alamat Barang" id="alamat-barang"></textarea>
+              </p>
+              <p>
+                <label for="deskripsi-barang">Deskripsi Barang</label>
+                <textarea name="deskripsi-barang" placeholder="Deskripsi Barang" id="deskripsi-barang"></textarea>
+              </p>
+              <p>
+                <label for="gambar-barang">Input Gambar</label>
+                <input id="gambar-barang" name="gambar-barang" type="file" />
+              </p>
+              <p>
+                <button type="submit" class="btn-home">Submit</button>
+              </p>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!------FOOTER------>
+    <!-- START FOOTER -->
+    <footer>
+      <div class="footer-Container">
+        <div class="row">
+          <!-- PRODUCT -->
+          <div class="product-Footer">
+            <h4>Product</h4>
+            <a href="">Overview</a>
+            <a href="">Features <span>new</span> </a>
+            <a href="">Checkout</a>
+            <a href="">Pricing</a>
+            <a href="">Releases</a>
+          </div>
+
+          <!-- COMPANY -->
+          <div class="company-Footer">
+            <h4>Company</h4>
+            <a href="">About</a>
+            <a href="">Press</a>
+            <a href="">Careers</a>
+            <a href="">Contact</a>
+            <a href="">Partners</a>
+          </div>
+
+          <!-- SUPPORT -->
+          <div class="support-Footer">
+            <h4>Support</h4>
+            <a href="">Help & Center</a>
+            <a href="">Terms of sevice</a>
+            <a href="">Legal</a>
+            <a href="">Privacy policy</a>
+            <a href="">Status</a>
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER MEDIA -->
+      <div class="footer-Sosmed">
+        <a href="">Sewa Barang</a>
+        <div class="sosmed-Links">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
